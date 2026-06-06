@@ -1,0 +1,32 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "timbogp",
+  "description": "TimboGP's Claude Code plugins.",
+  "owner": {
+    "name": "TimboGP"
+  },
+  "plugins": [
+    {
+      "name": "agentic-study-environment",
+      "source": "./plugin/agentic-study-environment",
+      "description": "A Claude Code learning harness: structured tutor sessions over your own source materials, in any domain.",
+      "version": "0.1.0",
+      "author": {
+        "name": "TimboGP"
+      },
+      "homepage": "https://github.com/TimboGP/agentic-study-environment",
+      "repository": "https://github.com/TimboGP/agentic-study-environment",
+      "license": "MIT",
+      "category": "education",
+      "keywords": [
+        "learning",
+        "tutor",
+        "education",
+        "study",
+        "harness",
+        "meta-framework",
+        "domain-overlay"
+      ]
+    }
+  ]
+}

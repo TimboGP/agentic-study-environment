@@ -1,0 +1,20 @@
+{
+  "name": "agentic-study-environment",
+  "version": "0.1.0",
+  "description": "A Claude Code learning harness: structured tutor sessions over your own source materials, in any domain.",
+  "author": {
+    "name": "TimboGP"
+  },
+  "homepage": "https://github.com/TimboGP/agentic-study-environment",
+  "repository": "https://github.com/TimboGP/agentic-study-environment",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "tutor",
+    "education",
+    "study",
+    "harness",
+    "meta-framework",
+    "domain-overlay"
+  ]
+}
