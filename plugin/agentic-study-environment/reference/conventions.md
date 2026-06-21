@@ -103,7 +103,7 @@ Curricula live at `.studyenv/<sub-project>/ai-agent-materials/curriculum.md`. Th
   - a stable **id** (e.g. `T1`, `T2.a`) so `PROGRESS.md` can cross-reference without restating the topic description, and so reordering doesn't break references
   - a one-line **description**
   - **prerequisites** — other topic ids; `none` if root
-  - suggested **session type** — `theory`, `practice`, or `both`. Domain overlays may add types (`simulation` for `Domain: speech-therapy`).
+  - suggested **session type** — `theory`, `practice`, or `both`. Domain overlays may add types (`simulation` for `Domain: speech-therapy`, `defense` for `Domain: academic-research`).
   - **sources** — entries are either in-source (file + anchor back to `source-materials/`) or external (prefixed `[ext]` with a concrete citation). See *External-source labeling* below for the format.
   - **exercise hooks** — short outlines of proposed practice/theory exercises. The actual exercise artifacts live in `work/` and are created at session time per the active overlay; do not duplicate exercise content into the curriculum.
 
@@ -193,4 +193,4 @@ The four **lifecycle skills** carry the user through bootstrap → set-curriculu
 | `stop-session` | End the session: record progress and summarize | Yes — Topics, Status, Journal in both sub-project and `.studyenv/PROGRESS.md` |
 | `adjust-level` | Shift an existing curriculum simpler or harder; allowed to pull in external material with strict labeling | No (same reasoning as `set-curriculum`) |
 
-Domain overlays at [`../domains/<domain>.md`](../domains/) refine `start-session` and (for speech-therapy `simulation`) `stop-session`. They are additive — they refine the generic core defined here, they do not replace it.
+Domain overlays at [`../domains/<domain>.md`](../domains/) refine `start-session` and (for the in-character session types — speech-therapy `simulation` and academic-research `defense`) `stop-session`. They are additive — they refine the generic core defined here, they do not replace it.

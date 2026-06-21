@@ -1,6 +1,6 @@
 ---
 name: start-session
-description: Begin a bracketed learning session inside a agentic-study-environment sub-project — pick a topic, propose theory vs. practice (or simulation, for speech-therapy), and conduct it per the sub-project's domain overlay. Use whenever the user signals they want to actively study, work an exercise, role-play a clinical case, or review theory inside a sub-project — phrases like "start session", "let's work on X", "begin a practice session", "ok let's study Y", or "I want to do an exercise on Z" should trigger this skill. A session is the harness's unit of work and ends with the stop-session skill.
+description: Begin a bracketed learning session inside a agentic-study-environment sub-project — pick a topic, propose theory vs. practice (or an overlay-specific type such as simulation or defense), and conduct it per the sub-project's domain overlay. Use whenever the user signals they want to actively study, work an exercise, role-play a clinical case, rehearse a research defense, or review theory inside a sub-project — phrases like "start session", "let's work on X", "begin a practice session", "ok let's study Y", or "I want to do an exercise on Z" should trigger this skill. A session is the harness's unit of work and ends with the stop-session skill.
 ---
 
 # Start a learning session
@@ -30,7 +30,7 @@ Sessions focus on **one** type, though a theory session may include some groundi
 
 - **`theory`** — concept discussion, definitions, intuitions, proofs/derivations on request.
 - **`practice`** — work an exercise grounded in the current theory topic; the agent prepares scaffolding (the active overlay specifies the form), the user implements, the agent reviews and pushes deeper.
-- **`simulation`** — only when the active overlay introduces it (currently `speech-therapy`). See the overlay for the protocol.
+- **`simulation` / `defense`** — in-character session types, available only when the active overlay introduces one (`simulation` for `speech-therapy`, `defense` for `academic-research`). See the overlay for the protocol.
 
 ## Propose a route
 
@@ -48,7 +48,7 @@ Once route is set, run the session per type. The active domain overlay (if any) 
 
 - **Scaffolding form** — what materials/files the agent prepares for the user to work on. Without an overlay, default is a `work/<exercise-name>.md` file with prompt, success criteria, and any reference excerpts inline.
 - **Review focus** — what the agent attends to when reviewing the user's output. Without an overlay, defaults are concept correctness and clarity.
-- **`/work/` layout** — where artifacts go. Without an overlay, default is a flat folder of markdown files. Code-shaped layouts (CMake, pyproject) come from `../../domains/coding.md`; case-folder layouts come from `../../domains/speech-therapy.md`.
+- **`/work/` layout** — where artifacts go. Without an overlay, default is a flat folder of markdown files. Code-shaped layouts (CMake, pyproject) come from `../../domains/coding.md`; case-folder layouts come from `../../domains/speech-therapy.md`; flavored research layouts (per-manuscript and per-defense folders) come from `../../domains/academic-research.md`.
 
 Teaching style across all types: **theory-first with explicit examples, definitions and intuitions before proofs, proofs on request**. Concise. Push deeper after the user's first pass — alternative implementations, edge cases, idiomatic alternatives, missed dimensions, the kind of thing a sharp tutor would flag.
 

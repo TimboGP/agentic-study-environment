@@ -1,6 +1,6 @@
 ---
 name: stop-session
-description: End the current learning session — update the sub-project's PROGRESS.md (topics + journal), mirror status changes into the .studyenv/PROGRESS.md cross-project tracker, and produce a concise summary of what was covered. Use whenever the user signals the session is over — phrases like "stop session", "let's wrap up", "end session", "we're done for today", or any out-of-character debrief signal (for speech-therapy simulations — "debrief", "end simulation"). Do not invoke this skill proactively at the end of a long conversation unless the user signals it.
+description: End the current learning session — update the sub-project's PROGRESS.md (topics + journal), mirror status changes into the .studyenv/PROGRESS.md cross-project tracker, and produce a concise summary of what was covered. Use whenever the user signals the session is over — phrases like "stop session", "let's wrap up", "end session", "we're done for today", or any out-of-character debrief signal (for speech-therapy simulations — "debrief", "end simulation"; for academic-research defenses — "debrief", "end defense"). Do not invoke this skill proactively at the end of a long conversation unless the user signals it.
 ---
 
 # Stop a learning session
@@ -9,7 +9,7 @@ This skill closes a bracketed session: it records what happened in `PROGRESS.md`
 
 ## When to use
 
-The user explicitly signals the session is ending: "stop session", "let's wrap up for today", "end session", "we're done". For speech-therapy `simulation` sessions, the signals also include "debrief" and "end simulation" (per the simulation overlay).
+The user explicitly signals the session is ending: "stop session", "let's wrap up for today", "end session", "we're done". For in-character session types — `simulation` under `Domain: speech-therapy`, `defense` under `Domain: academic-research` — the signals also include "debrief" (and "end simulation" / "end defense" respectively), per the active overlay.
 
 Do **not** invoke this skill proactively just because a conversation got long. The user brackets sessions explicitly; respect that.
 
@@ -44,9 +44,14 @@ After updates are written, give the user a concise summary:
 
 Keep this short. The full record is now in `PROGRESS.md`; the summary is the human-readable highlight reel.
 
-## Simulation debriefs (speech-therapy)
+## In-character session debriefs (simulation, defense)
 
-If this session was a `simulation` session under `Domain: speech-therapy`, the active overlay specifies a structured **debrief** that runs out of character before the standard `stop-session` flow. See `../../domains/speech-therapy.md` Phase 3 for the debrief protocol — which conditions were uncovered vs. missed during anamnesis, clinical reasoning, communication, what a supervisor would flag. The session artifacts (transcript, debrief) are written to `.studyenv/<name>/work/cases/<patient-id>/` per the speech-therapy `/work/` layout. After the debrief, this skill's normal `PROGRESS.md` updates still apply.
+Some overlays introduce an in-character session type whose overlay specifies a structured **debrief** that runs out of character before the standard `stop-session` flow:
+
+- **`simulation`** under `Domain: speech-therapy` — see `../../domains/speech-therapy.md` Phase 3 for the debrief protocol (which conditions were uncovered vs. missed during anamnesis, clinical reasoning, communication, what a supervisor would flag). Artifacts (transcript, debrief) go to `.studyenv/<name>/work/cases/<patient-id>/`.
+- **`defense`** under `Domain: academic-research` — see `../../domains/academic-research.md` Phase 3 for the debrief protocol (which questions were handled vs. fumbled, whether the contribution was defended, soundness of the method/stats answers, what a real committee would flag). Artifacts (transcript, debrief) go to `.studyenv/<name>/work/defenses/<topic-id>/`.
+
+After the debrief, this skill's normal `PROGRESS.md` updates still apply.
 
 ## Why these rules
 
