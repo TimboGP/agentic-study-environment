@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to the agentic-study-environment harness will be documented here.
+All notable changes to the plugins in the **`timbogp`** marketplace are documented here.
 
-This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the plugin manifest uses [Semantic Versioning](https://semver.org/).
+This file follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and each plugin's manifest uses [Semantic Versioning](https://semver.org/). The two plugins are **versioned independently** — `agentic-study-environment` and `ux-design` do not share a version number. The dated `[x.y.z]` sections below track `agentic-study-environment` (the first plugin); entries are labeled with the plugin they affect, and `ux-design`'s own releases are noted in its entries.
 
 ## [Unreleased]
 

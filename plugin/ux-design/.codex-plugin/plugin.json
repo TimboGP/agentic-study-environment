@@ -1,0 +1,43 @@
+{
+  "name": "ux-design",
+  "version": "0.1.0",
+  "description": "Guide, measure, and implement UX best practices: scored usability + accessibility (WCAG 2.2 AA) audits, quantitative UX metrics (Core Web Vitals, SUS), and stack-adaptive scaffolding for design tokens, accessible components, interaction feedback, and UX copy.",
+  "author": {
+    "name": "TimboGP",
+    "url": "https://github.com/TimboGP"
+  },
+  "homepage": "https://github.com/TimboGP/agentic-study-environment",
+  "repository": "https://github.com/TimboGP/agentic-study-environment",
+  "license": "MIT",
+  "keywords": [
+    "ux",
+    "ui",
+    "accessibility",
+    "wcag",
+    "design-system",
+    "design-tokens",
+    "usability",
+    "ux-writing",
+    "core-web-vitals"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UX Design",
+    "shortDescription": "Audit, measure, and scaffold UX & accessibility best practices.",
+    "longDescription": "UX Design works in three modes: guide (explain the right pattern), measure (scored usability + WCAG 2.2 AA audits, Core Web Vitals, SUS), and implement (detect the stack and scaffold design tokens, accessible WAI-ARIA components, interaction-feedback states, and UX copy).",
+    "developerName": "TimboGP",
+    "category": "Design",
+    "capabilities": [
+      "Skills",
+      "Accessibility audits",
+      "Code scaffolding"
+    ],
+    "websiteURL": "https://github.com/TimboGP/agentic-study-environment",
+    "defaultPrompt": [
+      "Audit this page for accessibility",
+      "Set up design tokens for this project",
+      "Make this component accessible"
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

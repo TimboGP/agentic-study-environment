@@ -1,6 +1,6 @@
 # ux-design
 
-Guide, measure, and implement UX best practices in Claude Code.
+Guide, measure, and implement UX best practices in your coding agent.
 
 This plugin works across three modes:
 
@@ -10,11 +10,19 @@ This plugin works across three modes:
 
 ## Install
 
-Distributed via the [`timbogp`](https://github.com/TimboGP/agentic-study-environment) marketplace:
+Distributed via the [`timbogp`](https://github.com/TimboGP/agentic-study-environment) marketplace.
+
+**Claude Code:**
 
 ```sh
 /plugin marketplace add TimboGP/agentic-study-environment
 /plugin install ux-design@timbogp
+```
+
+**Codex** — from a clone of the repo, then pick `ux-design` from the `TimboGP` marketplace in `/plugins`:
+
+```sh
+codex plugin marketplace add .
 ```
 
 Per-skill usage guides live in [`docs/`](docs/README.md).
