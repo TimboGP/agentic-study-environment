@@ -6,8 +6,8 @@
     "name": "TimboGP",
     "url": "https://github.com/TimboGP"
   },
-  "homepage": "https://github.com/TimboGP/agentic-study-environment",
-  "repository": "https://github.com/TimboGP/agentic-study-environment",
+  "homepage": "https://github.com/TimboGP/timbogp-marketplace",
+  "repository": "https://github.com/TimboGP/timbogp-marketplace",
   "license": "MIT",
   "keywords": [
     "learning",
@@ -30,7 +30,7 @@
       "File scaffolding",
       "Progress tracking"
     ],
-    "websiteURL": "https://github.com/TimboGP/agentic-study-environment",
+    "websiteURL": "https://github.com/TimboGP/timbogp-marketplace",
     "defaultPrompt": [
       "Bootstrap a learning project",
       "Set curriculum from source materials",

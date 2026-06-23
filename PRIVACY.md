@@ -11,4 +11,4 @@ All data (source materials, curricula, progress logs, work files) stays on your
 local machine in the `.studyenv/` directory the plugin creates. The plugin has
 no server-side component.
 
-Questions: open an issue at https://github.com/TimboGP/agentic-study-environment/issues
+Questions: open an issue at https://github.com/TimboGP/timbogp-marketplace/issues

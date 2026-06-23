@@ -156,7 +156,7 @@ No other registration step — there's no central registry. The overlay file's m
 
 ## Step 5: open a PR
 
-Follow the conventions in [the repo's CONTRIBUTING.md](https://github.com/TimboGP/agentic-study-environment/blob/main/CONTRIBUTING.md):
+Follow the conventions in [the repo's CONTRIBUTING.md](https://github.com/TimboGP/timbogp-marketplace/blob/main/CONTRIBUTING.md):
 
 - One overlay per PR.
 - Mirror the shape of `coding.md` or `speech-therapy.md`.

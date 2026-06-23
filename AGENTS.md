@@ -27,7 +27,7 @@ Each skill is self-sufficient and reads the files it needs (PROGRESS.md, sub-pro
 For Claude Code, install via the marketplace (works in any project, no clone required):
 
 ```sh
-/plugin marketplace add TimboGP/agentic-study-environment
+/plugin marketplace add TimboGP/timbogp-marketplace
 /plugin install agentic-study-environment@timbogp
 ```
 

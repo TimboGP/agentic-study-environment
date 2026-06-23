@@ -106,7 +106,7 @@ Sub-projects without a declared `Domain:` fall back to a neutral default (theory
 ### Claude Code marketplace
 
 ```
-/plugin marketplace add TimboGP/agentic-study-environment
+/plugin marketplace add TimboGP/timbogp-marketplace
 /plugin install agentic-study-environment@timbogp
 ```
 
@@ -210,8 +210,8 @@ Either `stop-session` wasn't called (so nothing was recorded), or `start-session
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/TimboGP/agentic-study-environment/blob/main/CONTRIBUTING.md). New domain overlays — math, language acquisition, music theory, history, design, the sciences — are the highest-leverage contribution. There's a step-by-step walkthrough at [`domains/ADDING_AN_OVERLAY.md`](domains/ADDING_AN_OVERLAY.md).
+See [CONTRIBUTING.md](https://github.com/TimboGP/timbogp-marketplace/blob/main/CONTRIBUTING.md). New domain overlays — math, language acquisition, music theory, history, design, the sciences — are the highest-leverage contribution. There's a step-by-step walkthrough at [`domains/ADDING_AN_OVERLAY.md`](domains/ADDING_AN_OVERLAY.md).
 
 ## License
 
-[MIT](https://github.com/TimboGP/agentic-study-environment/blob/main/LICENSE). Fork it, adapt it, write overlays for your domain. Source materials you drop into your own sub-projects are yours; the MIT license applies to the harness itself.
+[MIT](https://github.com/TimboGP/timbogp-marketplace/blob/main/LICENSE). Fork it, adapt it, write overlays for your domain. Source materials you drop into your own sub-projects are yours; the MIT license applies to the harness itself.
