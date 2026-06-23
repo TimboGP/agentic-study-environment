@@ -10,10 +10,10 @@ This plugin works across three modes:
 
 ## Install
 
-Distributed via the [`timbogp`](https://github.com/TimboGP/agentic-study-environment) marketplace:
+Distributed via the [`timbogp`](https://github.com/TimboGP/timbogp-marketplace) marketplace:
 
 ```sh
-/plugin marketplace add TimboGP/agentic-study-environment
+/plugin marketplace add TimboGP/timbogp-marketplace
 /plugin install ux-design@timbogp
 ```
 

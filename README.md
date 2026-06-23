@@ -14,12 +14,12 @@ A marketplace in Claude Code is a *catalog* you add once; you then install indiv
 Add the marketplace once (the repo *is* the catalog), then install whichever plugins you want:
 
 ```
-/plugin marketplace add TimboGP/agentic-study-environment
+/plugin marketplace add TimboGP/timbogp-marketplace
 /plugin install agentic-study-environment@timbogp
 /plugin install ux-design@timbogp
 ```
 
-The marketplace is named **`timbogp`**; the repo happens to be named `agentic-study-environment` (its first plugin). Already added the marketplace before? Refresh it to pick up newly added plugins:
+The marketplace is named **`timbogp`** and the repo is `timbogp-marketplace`. Already added the marketplace before? Refresh it to pick up newly added plugins:
 
 ```
 /plugin marketplace update timbogp
