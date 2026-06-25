@@ -18,3 +18,4 @@ This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), a
 - **Shared references** under [`reference/`](reference/): `methodology.md` (the Running Lean spine), `roles.md` (the persona catalog + protocol), `workspace.md` (the `.lean/` layout).
 - **The `.lean/` workspace** — a gitignored, host-independent directory persisting the canvas, risks, interviews, experiments, pitch artifacts, metrics, and progress, so the coach continues across sessions.
 - **Docs** — per-skill usage guides under [`docs/`](docs/README.md).
+- **Credits & trademark notice** ([`NOTICE`](NOTICE) and the README's *Credits & trademarks* section) — credits Ash Maurya and the methodology's authors, acknowledges the "Lean Canvas" / "Lean Startup" / "Business Model Canvas" trademarks (used nominatively), and states the plugin is unofficial and not affiliated with or endorsed by them.

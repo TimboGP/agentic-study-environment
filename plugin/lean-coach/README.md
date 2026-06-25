@@ -81,3 +81,15 @@ Everything the plugin generates for a venture lives under a single gitignored `.
 - Every canvas block and plan is treated as an **untested assumption** until validated — the plugin's bias is toward the smallest experiment that produces real learning, and against vanity progress.
 - Role-play roles never break character to coach — mistakes are debrief material; the user breaks character with `[square brackets]`.
 - English by default for structural tokens (stage names, block names, field names, skill/role names); conversational language is overridable via `Language:` in an optional `.lean/AGENTS.md`.
+
+## Credits & trademarks
+
+This plugin is an **independent, unofficial** educational tool. It implements and teaches the **Running Lean** methodology created by **Ash Maurya** (_Running Lean_, O'Reilly), which builds on Eric Ries's _The Lean Startup_, Steve Blank's Customer Development, and Alex Osterwalder's Business Model Canvas. All credit for the methodology belongs to its authors — please [read the book](https://www.leanfoundry.com/books/running-lean) and support the source.
+
+- **"Lean Canvas"** is a trademark of Ash Maurya / LEANSTACK.
+- **"The Lean Startup" / "Lean Startup"** is a trademark of Eric Ries.
+- **"Business Model Canvas"** is a trademark of Strategyzer AG; the canvas is licensed CC BY-SA 3.0.
+
+These names are used here **nominatively** — only to refer to the frameworks themselves. This plugin is **not affiliated with, authorized, sponsored, or endorsed by** Ash Maurya, LEANSTACK, Eric Ries, Strategyzer, or O'Reilly. All trademarks are the property of their respective owners.
+
+The plugin's own code and text are MIT-licensed. It does **not** reproduce the book's text — it provides original guidance over a publicly described methodology, with attribution. See [`NOTICE`](NOTICE).
